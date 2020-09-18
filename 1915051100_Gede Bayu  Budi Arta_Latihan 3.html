@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sistem Informasi Pendataan Staf Pegawai Created By Gede Bayu Budi Arta</title>
+<link rel="stylesheet" type="text/css" href="1915051100_Gede Bayu Budi Arta_Latihan 3.css">
+</head>
+<body>
+<div class="container">
+<header class="header">
+<div class="logo">
+	<a href="https://imgbb.com/"><img src="https://i.ibb.co/gPcWgBt/bec0a128-8f4f-4977-99d2-2db3f75d45f9-1.jpg" alt="bec0a128-8f4f-4977-99d2-2db3f75d45f9-1" border="5"></a>
+</div>
+<nav class="nav">
+ <h3 align=center>SELAMAT DATANG</h3>
+<h3 align=center>SISTEM INFORMASI PENDATAAN STAF MLBB INDONESIA</h3></br>
+<ul>
+	<li><a href="#logout">Logout</a></li>
+	</ul>
+</nav>
+</header>
+<div class="wrapper">
+<aside class="sidebar">
+	<div style="padding: 5px;">
+			<b>Menu</b><br>
+			<hr>
+			<a href="#">Home</a><br />
+			<a href="#">Biodata</a><br />
+			<a href="#">Update Biodata</a><br />
+			<a href="wwww.instagram.com/debayu_budiarta">Contact</a><br />
+			</div>
+</aside>
+<main class="content">
+	<div style="padding: 10px;">
+		<h1 align="center">Update Biodata Staf</h1></b>
+		<hr/>
+		<form action=" formulir.php" method="post" onSubmit="return ValidasiForm()" name="FormReg">
+		<div class="col-sm-4">
+		<form method="POST" enctype="multipart/form-data">
+			<div class="form-group">
+				<label>Upload Foto Staf Dengan Pakaian Formal</label><br>
+				<input type="file" class="form-control" name="foto">
+				<br>
+				<button class="btn btn-warning" type="submit">Upload</button>
+				</div>	
+			</form>
+		</div>	
+		</td>
+			<table>
+				<tr>
+					<td>Nama</td>
+					<td>:</td>
+					<td><input type="text" name="nama" value="" placeholder="Tuliskan Nama Anda" /></td>
+				</tr>
+				<tr>
+					<td>Jenis Kelamin</td>
+					<td>:</td>
+					<td>
+						<input type="radio" name="jenis_kelamin" value="laki-laki" /> Laki - Laki
+						<input type="radio" name="jenis_kelamin" value="perempuan" /> Perempuan
+						</td>
+				</tr>
+		<tr>
+			<td>Devisi</td>
+			<td>:</td>
+		<td>
+			<input type="checkbox" name="devisi" value="Membaca Buku" /> Pelayanan Publik
+            <input type="checkbox" name="devisi" value="Menulis" /> Media Informasi
+			<input type="checkbox" name="devisi" value="Menulis" /> Personalia
+			<input type="checkbox" name="devisi" value="Menulis" /> Minat Dan Bakat
+		</td>
+	</tr>
+				<tr>
+					<td>Agama</td>
+					<td>:</td>
+					<td> <select name="Agama">
+					<option>Hindu</option>
+					<option>Kristen</option>
+					<option>Islam</option>
+					<option>Katolik</option>
+					<option>Budha</option>
+					</select>
+					</td>
+				</tr>	
+				<tr>
+					<td>Asal Kota</td>
+					<td>:</td>
+					<td> <select name="asal_kota">
+					<option>Singaraja</option>
+					<option>Bandung</option>
+					<option>Denpasar</option>
+					<option>Surabaya</option>
+					</select>
+					</td>
+				</tr>
+			<tr>
+					<td>Tanggal Lahir</td>
+					<td>:</td>
+					<td><input type="date" name="tgl_lahir"></td>	
+			</tr>	
+			<tr>
+					<td>Tempat Lahir</td>
+					<td>:</td>
+					<td> <input type="text" name="Tempat Lahir" placeholder="Tuliskan Tempat Lahir Anda" /></td>
+			</tr>
+			<tr>
+					<td>Warga Negara</td>
+					<td>:</td>
+					<td> <input type="text" name="Warga Negara" placeholder="Tuliskan Warga Negara Anda" /></td>
+			</tr>
+			<tr>
+					<td>Alamat</td>
+					<td>:</td>
+					<td> <input type="text" name="Alamat" placeholder="Tuliskan Alamat Anda" /></td>
+			</tr>
+			<tr>
+					<td>Pendidikan Terakhir</td>
+					<td>:</td>
+					<td> <input type="text" name="Pendidikan Terakhir" placeholder="Tuliskan Pendidikan Terakhir Anda" /></td>
+			</tr>
+			<tr>
+					<td>No.HP</td>
+					<td>:</td>
+					<td> <input type="text" name="No.HP" placeholder="Tuliskan No.HP Anda"/></td>
+			</tr>
+			<tr>
+					<td>Email</td>
+					<td>:</td>
+					<td> <input type="text" name="Email" placeholder="Tuliskan Email Anda" /></td>
+			</tr>
+			<tr>
+					<td>Pesan</td>
+					<td>:</td>
+					<td><textarea name="Pesan" rows="5" cols="20"></textarea></td>
+			</tr>
+			<tr>
+			<td colspan="3" align="center"><input type="submit" value="Send"> </td>
+		</tr>
+			</table>
+		</form>
+	</div>
+</main>
+</div>
+		<footer class="footer">
+			<font color="black"> Copyright 2020 </black>
+		</footer>
+	</div>
+</body>
+</html>
